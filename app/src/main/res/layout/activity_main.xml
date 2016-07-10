@@ -13,98 +13,68 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodgree Apps!"
+        android:text="@string/main_title"
         android:id="@+id/title"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Popular Movies"
+        style="@style/ButtonStyle"
+        android:text="@string/popular_movie_title"
         android:id="@+id/popular_movies"
         android:layout_below="@+id/title"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:background="@color/colorAccent"
         android:layout_alignRight="@+id/title"
         android:layout_alignEnd="@+id/title"
         android:layout_alignLeft="@+id/title"
-        android:layout_alignStart="@+id/title"
-        android:onClick="sendMessage" />
+        android:layout_alignStart="@+id/title" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Stock Hawk"
+        style="@style/ButtonStyle"
+        android:text="@string/stock_hawk_title"
         android:id="@+id/stock_hawk"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:background="@color/colorAccent"
         android:layout_below="@+id/popular_movies"
         android:layout_alignLeft="@+id/popular_movies"
         android:layout_alignStart="@+id/popular_movies"
         android:layout_alignRight="@+id/popular_movies"
-        android:layout_alignEnd="@+id/popular_movies"
-        android:onClick="sendMessage" />
+        android:layout_alignEnd="@+id/popular_movies" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Build it Bigger"
-        android:id="@+id/button2"
-        android:layout_marginTop="10dp"
-        android:textColor="#fff"
-        android:background="@color/colorAccent"
+        style="@style/ButtonStyle"
+        android:text="@string/build_it_bigger_title"
+        android:id="@+id/build_it_bigger"
         android:layout_below="@+id/stock_hawk"
         android:layout_alignLeft="@+id/stock_hawk"
         android:layout_alignStart="@+id/stock_hawk"
         android:layout_alignRight="@+id/stock_hawk"
-        android:layout_alignEnd="@+id/stock_hawk"
-        android:onClick="sendMessage" />
+        android:layout_alignEnd="@+id/stock_hawk" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Make Your App Material"
-        android:id="@+id/button3"
-        android:textColor="#fff"
-        android:background="@color/colorAccent"
-        android:layout_below="@+id/button2"
-        android:layout_marginTop="10dp"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_alignRight="@+id/button2"
-        android:layout_alignEnd="@+id/button2"
-        android:onClick="sendMessage" />
+        style="@style/ButtonStyle"
+        android:text="@string/make_your_app_material_title"
+        android:id="@+id/make_your_app_material"
+        android:layout_below="@+id/build_it_bigger"
+        android:layout_alignLeft="@+id/build_it_bigger"
+        android:layout_alignStart="@+id/build_it_bigger"
+        android:layout_alignRight="@+id/build_it_bigger"
+        android:layout_alignEnd="@+id/build_it_bigger" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go Ubiquitous"
-        android:id="@+id/button4"
-        android:textColor="#fff"
-        android:background="@color/colorAccent"
-        android:layout_below="@+id/button3"
-        android:layout_marginTop="10dp"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3"
-        android:onClick="sendMessage" />
+        style="@style/ButtonStyle"
+        android:text="@string/go_ubiquitous_title"
+        android:id="@+id/go_ubiquitous"
+        android:layout_below="@+id/make_your_app_material"
+        android:layout_alignLeft="@+id/make_your_app_material"
+        android:layout_alignStart="@+id/make_your_app_material"
+        android:layout_alignRight="@+id/make_your_app_material"
+        android:layout_alignEnd="@+id/make_your_app_material" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Capstone"
-        android:id="@+id/button5"
-        android:textColor="#fff"
-        android:background="@color/colorAccent"
-        android:layout_below="@+id/button4"
-        android:layout_marginTop="10dp"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4"
-        android:onClick="sendMessage" />
+        style="@style/ButtonStyle"
+        android:text="@string/capstone_title"
+        android:id="@+id/capstone"
+        android:layout_below="@+id/go_ubiquitous"
+        android:layout_alignLeft="@+id/go_ubiquitous"
+        android:layout_alignStart="@+id/go_ubiquitous"
+        android:layout_alignRight="@+id/go_ubiquitous"
+        android:layout_alignEnd="@+id/go_ubiquitous" />
 </RelativeLayout>
